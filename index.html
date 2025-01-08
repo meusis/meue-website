@@ -118,19 +118,23 @@
         
         .at-symbol {
     display: inline-block;
-    color: #f5f5f5;               /* Light gray for the "A" */
+    color: #f5f5f5;               /* Light gray for the letter "A" */
     background-color: #2f2f2f;    /* Dark gray background, matching page */
     font-weight: bold;
-    width: 24px;                  /* Circle size */
-    height: 24px;                 /* Circle size */
+    width: 18px;                  /* Smaller circle */
+    height: 18px;                 /* Smaller circle */
     border-radius: 50%;           /* Makes it a circle */
     text-align: center;
-    line-height: 24px;            /* Centers the letter vertically */
-    font-size: 16px;              /* Adjust font size for the letter */
-    padding: 0;                   /* Ensure no extra space around the "A" */
-    margin: 0;                    /* Removes margin if any */
-    box-sizing: border-box;       /* Ensures padding and border are accounted for in width/height */
+    line-height: 18px;            /* Ensures vertical centering within the circle */
+    font-size: 14px;              /* Adjust font size for the letter */
+    padding-top: -6px;            /* Lift the "A" higher within the circle */
+    margin: 0;                    /* No margin */
+    box-sizing: border-box;       /* Ensures the border is within the width/height */
+    border: 2px solid #f5f5f5;    /* Add border around the circle to make it visible */
+    vertical-align: middle;       /* Ensures it aligns with surrounding text */
 }
+
+
 </style>
 </head>
 <body>

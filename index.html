@@ -90,6 +90,49 @@
             color: #f5f5f5;
             margin: 30px 0;
         }
+
+        /* Flexbox layout for Time & Place and Practice sections */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .section {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+        }
+
+        .section h3 {
+            margin-top: 0;
+        }
+
+        .section ul {
+            margin-left: 20px;
+        }
+        
+        .at-symbol {
+    display: inline-block;
+    color: #000;                /* Black text for the letter A */
+    background-color: #000;     /* Black circle background */
+    font-weight: bold;
+    width: 22px;                /* Circle size */
+    height: 22px;               /* Circle size */
+    border-radius: 50%;         /* Makes it round */
+    text-align: center;
+    line-height: 22px;          /* Centers the text vertically */
+    font-size: 14px;            /* Adjust font size to fit inside the circle */
+    padding: 0;                 /* Ensure the A reaches the edges */
+    margin: 0;                  /* Remove margin if any */
+}
+
+
+
     </style>
 </head>
 <body>
@@ -102,86 +145,88 @@
         <p>Genesis: January 20th, 7am</p>
     </div>
 
-    
-
     <blockquote cite="https://www.etymonline.com/word/*meue-">
-        <!--
-        <p><em>*meuə-, Proto-Indo-European root meaning "to push away."</em></p>
-        
-        <p><em>It forms all or part of: commotion; emotion; mob; mobile; moment; momentary; momentous; momentum; motif; motility; motion; motive; moto-; motor; move; movement; mutiny; premotion; promote; remote; remove.</em></p>
-        -->
         <p><em>*meuə-, Proto-Indo-European root meaning "to push away." It is the hypothetical source of/evidence for its existence is provided by: Sanskrit kama-muta "moved by love" and probably mivati "pushes, moves"; Greek ameusasthai "to surpass," amyno "push away"; Latin movere "move, set in motion"; Lithuanian mauti "push on."</em></p>
         <p><em>Source: <a href="https://www.etymonline.com/word/*meue-">etymonline.com</a></em></p>
     </blockquote>
 
     <h2 id="step-to-uknown">Step to Unknown</h2>
-    <p>Life rarely happens as predicted, given that we will never be able to anticipate everything. At no point can we have full control of external events. Staying in the realm of comfort and self-confirming practice makes us fragile and unable to thrive in the ever-changing universe.</p>
-    <p>Together, we can create an environment where instead of stabilizing the state of events, we ground ourselves in an unstable flow of things and embrace the unknown, expanding the horizons by doing things we struggle with.</p>
+    <p>Life is unpredictable, and we can never fully anticipate what’s to come. We don’t control the external world, and the more we cling to comfort and certainty, the more fragile we become. To truly thrive in an ever-changing universe, we must step out of our safe zones.</p>
+    <p>By embracing the unknown and letting go of rigid expectations, we can cultivate resilience. Here, we ground ourselves in an unstable flow, ready to challenge the limits of what we know—and what we think we can do.</p>
 
     <h2 id="concept--proposal">Concept &amp; Proposal</h2>
-    <p>This is not a promise of a solving-all-magical-protocol; we are not interested in that. It's a humble call out to those who want to join a journey over the diverse landscape of life. A wish  to open up, receive feedback, and build a movement collective based on shared curiosity to:</p>
-    <ul>
-        <li>Examine life philosophy of motion and struggle through practice and questioning (<em>why?, how?, what?</em>)</li>
-        <li>Nourish organism beyond an individual a sum of</li>
-        <li>Search how such experience can improve our lives and relation to the surrounding world</li>
-        <li>Cultivate non-verbal connections and dialogue</li>
-        <li>Challenge ourselves and learn</li>
-        <li>Let go, play, fight and dance together</li>
-        <li>Explore different areas through body, mind, heart, and spirit: challenge, play, focus, coordination, balance, rhythm, improvisation, tension, relaxation, discipline, touch, strength, flow, speed, stillness, collaboration, competition, trust, flexibility, explosiveness, endurance, mobility, etc. You name it.</li>
+<p>This is not a call for an all-knowing solution or a magic formula. Instead, it's an invitation to join a shared journey—a collective exploration of life’s diverse and ever-changing landscape. This is about opening ourselves up to new experiences, receiving feedback, and cultivating a movement culture grounded in curiosity and practice.</p>
+<p>Together, we’ll dive into the philosophy of motion and struggle, questioning everything:</p>
+<ul>
+    <li>How can movement be a tool for understanding life?</li>
+    <li>How does it connect the individual to the collective?</li>
+    <li>How can we improve our lives through the way we move and relate to the world?</li>
+    <li>How do we cultivate non-verbal dialogue and trust?</li>
+    <li>How can we challenge ourselves, play, fight, dance, and grow together?</li>
+</ul>
+<p>Through physical practice, we’ll explore mind, body, heart, and spirit. We’ll develop focus, coordination, rhythm, improvisation, flexibility, endurance, and much more—each moment an opportunity to grow, explore, and expand the horizon of what we’re capable of.</p>
+
     </ul>
 
-    <h3 id="how">Practice</h3>
-    <p>Let surprise be our northern star. Overall structure of a session may look like this:</p>
-    <ul>
-        <li>Various movements consisting of some of these areas (60-75min):
+    <!-- Container for Time & Place and Practice sections -->
+    <div class="container">
+        <!-- Time & Place section -->
+        <div class="section">
+            <h3 id="when">Join the Movement</h3>
             <ul>
-                <li>Dynamic mobility</li>
-                <li>Coordination</li>
-                <li>Movement flows</li>
-                <li>Partnering &amp; group practice</li>
-                <li>Play &amp; improvise</li>
-                <li>Challenge</li>
-            </ul>
-        </li>
-        <li>Strength &amp; endurance (30-45min)
-            <ul>
-                <li>Skill over mass</li>
-                <li>Practice over workout</li>
-                <li>Use and process over numbers</li>
-            </ul>
-        </li>
-        <li>Re-generation (remaining time)</li>
-        <li>Closing round (5min)</li>
-    </ul>
+                <li><strong>Time:</strong> Monday - Wednesday - Friday; 07:00 - 09:15</li>
+                <li><strong>Place:</strong> K11, sometimes outside</li>
+                <li><strong>Membership fee:</strong>
+                    <ul>
+                        <li>Full: 3 sessions/week: 1600 CZK (65 E) / month</li>
+                        <li>Basic: 2 sessions/week: 1200 CZK (50 E) / month</li>
+                        <li>Individual entry: This option is only available on prior communication, people cannot just drop in.</li>
+                        <li>All funds go to support K11</li>
+                        <li>Discount: K11 is a place to build communal capacity. If the only blocker for you to join is your economic situation, please reach out, and we will find a solution.</li>
+                    </ul>
+                </li>
+                <li><strong>Additional activity:</strong>
+                    <ul>
+                        <li>Sharing: books, resources, and session logs</li>
+						<li>Seminars: Inviting practitioners for special sessions or weekend seminars</li>
+						<li>Trips: Outdoor activites, hikes, and intensive camps</li>
 
-    <h3 id="when">Time & Place</h3>
-    <ul>
-        <li><strong>Time:</strong> Monday - Wednesday - Friday; 07:00 - 09:15</li>
-        <li><strong>Place:</strong> K11, sometimes outside</li>
-        <li><strong>Membership fee:</strong>
-            <ul>
-                <li>Full: 3 sessions/week: 1600 CZK (65 E) / month</li>
-                <li>Basic: 2 sessions/week: 1200 CZK (50 E) / month</li>
-                <li>Individual entry: This option is only available on prior communication, people cannot just drop in.</li>
-                <li>All funds go to support K11</li>
-                <li>Discount: K11 is a place to build communal capacity. If the only blocker for you to join is your economic situation, please reach out, and we will find a solution.</li>
+                    </ul>
+                </li>
+                <li><strong>Contact:</strong> More info at <em>contact [at] meue.org</em></li>
             </ul>
-        </li>
-        <li><strong>Additional activity:</strong>
+        </div>
+
+        <!-- Practice section -->
+        <div class="section">
+            <h3 id="how">Practice</h3>
+            <p>Let surprise be our northern star. A 130-minute session may follow a structure like this::</p>
             <ul>
-                <li>Sharing: books, resources, possibly an archive page with session logs, etc (future)</li>
-                <li>Seminars: Inviting various people to share their practice instead of the usual session, or as a longer seminar (weekends)</li>
-                <li>Trips: Possibility of outdoor and indoor hikes and intensive camps</li>
+                <li><strong>Various movements</strong> consisting of some of these areas (60-75min):
+                    <ul>
+                        <li>Dynamic mobility</li>
+                        <li>Coordination</li>
+                        <li>Movement flows</li>
+                        <li>Partnering &amp; group practice</li>
+                        <li>Play &amp; improvise</li>
+                        <li>Challenge</li>
+                    </ul>
+                </li>
+                <li><strong>Strength &amp; endurance</strong> (30-45min)
+                    <ul>
+                        <li>Skill over mass</li>
+                        <li>Practice over workout</li>
+                        <li>Use and process over numbers</li>
+                    </ul>
+                </li>
+                <li><strong>Re-generation</strong> (remaining time)</li>
+                <li><strong>Closing round</strong> (5min)</li>
             </ul>
-        </li>
-        <li><strong>Contact:</strong> More info at <em>contact [at] meue.org</em></li>
-    </ul>
+        </div>
+    </div>
 
     <!-- Footer with philosophical quote -->
     <footer>
         <p>"When I let go of what I am, I become what I might be" – Lao Tzu</p>
-        <p>contact [at] meue.org</p>
-    </footer>
-
-</body>
-</html>
+        <p>contact <span class="at-symbol"></span> meue.org</p>
+   

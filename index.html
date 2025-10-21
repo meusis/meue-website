@@ -14,6 +14,14 @@
             padding: 20px;
         }
 
+        /* Page container for centering and max width */
+        .page-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
         h1, h2, h3, h5 {
             color: #9fffe0;
         }
@@ -146,10 +154,37 @@
             vertical-align: middle;
             box-shadow: 0 0 6px #7fffd433;
         }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .page-wrapper {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2.2em;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
     </style>
 
 </head>
 <body>
+    <div class="page-wrapper">
 
     <!-- Important starting information -->
     <h1>*meuə</h1>
@@ -158,7 +193,7 @@
         <p><strong>Movement Culture Collective</strong></p>
     </div>
 
-    <h2 id="step-to-uknown">Step to Unknown</h2>
+    <h2 id="step-to-unknown">Step to Unknown</h2>
     <p>Life is unpredictable, and we can never fully anticipate what’s to come. We don’t control the external world, and the more we cling to comfort and certainty, the more fragile we become. To truly thrive in an ever-changing universe, we must step out of our safe zones.</p>
     <p>By working the unknown and letting go of rigid expectations, we can cultivate resilience. Together, we create an environment where we embrace uncertainity, poised to challenge the limits of what we know—and what we think is possible.</p>
 
@@ -171,11 +206,9 @@
     <li>How can we improve our lives through the way we move and relate to the world?</li>
     <li>How do we cultivate non-verbal dialogue and trust?</li>
     <li>How can we challenge ourselves, play, fight, dance, and grow together?</li>
-    <li>How can we become more resilent and antifragile?</li>
+    <li>How can we become more resilient and antifragile?</li>
 </ul>
-<p>Through practice, we’ll explore mind, body, heart, and spirit. We intent to find tools to improve: focus, coordination, strength, rhythm, flexibility, elasticity, endurance, balance, power, speed, patience, and much more—each moment an opportunity to discover, grow, and expand the horizon of possibilities.</p>
-
-    </ul>
+<p>Through practice, we’ll explore mind, body, heart, and spirit. We intend to find tools to improve: focus, coordination, strength, rhythm, flexibility, elasticity, endurance, balance, power, speed, patience, and much more—each moment an opportunity to discover, grow, and expand the horizon of possibilities.</p>
 
     <!-- Container for Time & Place and Practice sections -->
     <div class="container">
@@ -243,7 +276,7 @@
         <p id="quote"></p>
         <p>contact <span class="at-symbol">A</span> meue.org</p>
     </footer>
-
+  </div>
     <!-- JavaScript goes here, at the end of the body -->
     <script>
         // Array of quotes
@@ -253,7 +286,7 @@
             '"Those who have knowledge, don\'t predict. Those who predict, don\'t have knowledge" – Lao Tzu',
             '"In the midst of chaos, there is also opportunity." – Sun Tzu',
             '"Water shapes its course according to the nature of the ground over which it flows." – Sun Tzu',
-	    '"Never give a sword to a man who can\'t dance" – Confucius '
+	        '"Never give a sword to a man who can\'t dance" – Confucius '
         ];
 
         // Function to pick a random quote

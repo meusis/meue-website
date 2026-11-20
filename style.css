@@ -22,8 +22,7 @@
     font-display: swap;
 }
 
-/* Colour tokens: dark is the default, light follows the system setting.
-   All text/background pairs pass WCAG AA (4.5:1) in both schemes. */
+/* Colour tokens: dark only, mint accent. All pairs pass WCAG AA (4.5:1). */
 :root {
     --bg: #121110;
     --surface: #1a1917;
@@ -37,19 +36,6 @@
     --font-body: "Literata", Georgia, "Times New Roman", serif;
     --font-mark: Arial, "Liberation Sans", Helvetica, sans-serif;  /* wordmark, same as poster */
 }
-@media (prefers-color-scheme: light) {
-    :root {
-        --bg: #f4f1ea;
-        --surface: #ebe7de;
-        --text: #171614;
-        --muted: #57534b;
-        --rule: #d9d4c9;
-        --accent: #0b6e52;      /* mint is unreadable on light, deep teal instead */
-        --banner-bg: #0b6e52;
-        --banner-text: #ffffff;
-    }
-}
-
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
